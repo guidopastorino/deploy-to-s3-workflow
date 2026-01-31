@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
+  devIndicators: false,
+  outputFileTracingRoot: __dirname,
+  output: "standalone" // For API Routes in AWS Amplify
 };
 
 export default nextConfig;
