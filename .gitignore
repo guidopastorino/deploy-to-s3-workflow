@@ -42,3 +42,5 @@ next-env.d.ts
 
 # Others
 !.env.example
+*.md
+!README.md
